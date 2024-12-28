@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.hashtag-header{
+    /* height: 200px; */
+    padding: 4rem;
+    background-color: #065fda;
+    color: white;
+    background-image: url(images/background.png);
+    background-size: 277px;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: -138px;
+    /* vertical-align: center; */
+}
+h1{
+    
+    
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+}
+span{
+    font-size: 2rem;
+}
+
+.hashtag-header img{
+    width: 4%; /* Can also use a fixed width like 150px */
+    aspect-ratio: 1 / 1; /* Ensures the height matches the width */
+    object-fit: cover;
+    border-radius: 100%;
+    border: 2px solid white;
+    vertical-align: top;
+}
+img+img{
+    margin-left: -1.5rem;
+}
